@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(100, 113, 124);
+    color: aliceblue;
+    margin-left: 100px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.fotoperfil {
+    display: flex;
+    height: 200px;
+    width: auto;
+    justify-content: end;
+    }
+
+.texto1 {
+    display: flex;
+}
