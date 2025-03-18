@@ -1,9 +1,25 @@
 body {
-    background-color: rgb(100, 113, 124);
-    color: aliceblue;
-    margin-left: 100px;
+    
+    justify-content: center;
+
 }
 
+.square {
+    background-color:rgb(117, 156, 156);
+    width: 700px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.squaretwo {
+    background-color:rgb(117, 156, 156);
+    width: 700px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
 .titulo {
     text-align: center;
 }
@@ -11,7 +27,7 @@ body {
 .fotoperfil {
     display: flex;
     height: 200px;
-    width: auto;
+    width: 100%;
     justify-content: end;
     }
 
