@@ -1,36 +1,57 @@
 body {
-    
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 63, 63)
 }
 
 .square {
-    background-color:rgb(117, 156, 156);
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+    background-color: rgb(117, 156, 156);
     width: 700px;
     height: 250px;
     padding: 50px;
     border-radius: 10px;
+    box-shadow: 0px 20px 20px 10px;
 }
-
+ 
 .squaretwo {
-    background-color:rgb(117, 156, 156);
+    background-color: rgb(117, 156, 156);
     width: 700px;
-    height: 250px;
+    height: 470px;
     padding: 50px;
     border-radius: 10px;
-    margin-top: 80px;
-}
-.titulo {
-    text-align: center;
-}
+    margin-top: 10px;
+    box-shadow: 0px 20px 20px 10px;
+} 
 
 .fotoperfil {
-    display: flex;
+    width: 200px;
     height: 200px;
-    width: 100%;
-    justify-content: end;
-    }
+    border-radius: 30px;
+    object-fit: cover;
+}
 
-.texto1 {
-    display: flex;
+.titulo {
+    flex-grow: 1;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+h3 {
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+li {
+    font-style: normal;
+    font-size: large;
+    margin-top: 10px;
 }
